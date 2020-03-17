@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["element 1", 2, "element 3", 41]
+  ["element 1", 2, ["element 3 is an array with 1 element"], :symbol_data_type]
 end
 
 def add_element_to_end_of_array(array, element)
