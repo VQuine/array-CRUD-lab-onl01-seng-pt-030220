@@ -3,14 +3,17 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["element 1", 2, ["element 3 is an array with 1 element"], :symbol_data_type]
+  ["element 1 is a string", 2, ["element 3 is an array containing 1 string element"], :symbol_data_type_element]
 end
 
 def add_element_to_end_of_array(array, element)
-
+  array << element
+# array.push(element)
+# array += [element]
 end
 
 def add_element_to_start_of_array(array, element)
+  array.unshift(element)
 
 end
 
